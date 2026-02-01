@@ -1,2 +1,2 @@
-# portfolio_website
-Static site for my work portfolio
+# portfolio
+Static site for my portfolio
