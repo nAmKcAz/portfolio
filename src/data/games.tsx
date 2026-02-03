@@ -132,7 +132,7 @@ export const games: Game[] = [
       role: `
       <div>I was Founding Engineer #1 (the first hire) on this project. My role was quite literally 'do whatever needs doing today'.</div>
       <div class="mt-4">I built CI pipelines, developed our core Unity extensions that recorded game states and input, helped create the React UIs for building, running, and analyzing our Bot Sequences, and built out the backend Kotlin APIs for our testing framework.</div>
-      <div class="mt-4">I also wrote systems in Python that utilized SWIFT computer vision analysis to detect objects in screenshots captured during a bot recording or playback.
+      <div class="mt-4">I also wrote systems in Python that utilized SIFT computer vision analysis to detect objects in screenshots captured during a bot recording or playback.
         <ul class="list-disc list-outside ml-6 mt-2 space-y-2">
           <li>A system that used OCR and state information to navigate game menus.</li>
           <li>A system that auto created and tagged image analysis data using the state recordings and the captured screen space renderer and/or collider boundaries for game objects in combination with recorded screen captures.</li>
@@ -148,7 +148,7 @@ export const games: Game[] = [
       link: "https://www.regression.gg/",
       abstract_title: "Regression Games",
       abstract_image: `${baseUrl}images/rg/RG_Staff2.png`,
-      tech: ["Unity", "C#", "NodeJS", "Python", "SWIFT", "Computer Vision", "AI", "Kotlin", "APIs", "MySQL"],
+      tech: ["Unity", "C#", "NodeJS", "Python", "SIFT", "Computer Vision", "AI", "Kotlin", "APIs", "MySQL"],
       date: "September 2022 - March 2025",
       who: "Regression Games",
       who_link: "https://www.regression.gg/",
