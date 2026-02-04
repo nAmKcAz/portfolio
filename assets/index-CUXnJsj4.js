@@ -17,8 +17,8 @@ Please change the parent <Route path="${G}"> to <Route path="${G==="/"?"*":`${G}
         </div>`,role:`Pahdo Labs shrunk dramatically after Starlight Re:Volver to focus on trying to release a 2nd game and possibly acquire enough funds to continue operating.
       <div class="mt-2" >I worked on almost every part of this game ...</div>
           <ul class="list-disc list-outside ml-6 mt-2 space-y-2">
-            <li>Re-working our netcode to be P2P using Fishy Steamworks instead of server centric</li>
-            <li>Building a new outgame progression system and UIs for Score and Ranks</li>
+            <li>Re-working our netcode using Fishy Steamworks to be P2P instead of server centric</li>
+            <li>Building a new player Score and Ranks outgame progression system and UIs</li>
             <li>Fleshing out a new in game missions progress tracking system and UIs</li>
             <li>Building a new experience for selecting your character loadout</li>
             <li>Building game menus</li>
