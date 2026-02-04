@@ -24,16 +24,27 @@ export const games: Game[] = [
       title: "Edge of Divinity",
       image: `${baseUrl}images/eod/EOD_Title2.png`,
       overview:
-        `<span class=\"text-lg font-semibold\">Edge of Divinity</span><span> is a follow on from </span><span class=\"text-lg font-semibold\">Starlight Re:Volver</span><span> where we reworked the art and core game systems, removed the social city outgame portions, and made a focused Roguelite experience where your character climbs the tower floor by floor trying to get back to the celestial realm until you fall back down to basecamp.</span>
-        <div class=\"flex items-center\">
-        <img src=\"${baseUrl}images/eod/EOD_Menu.png\" alt=\"game-image\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
-        <img src=\"${baseUrl}images/eod/EOD_Preon.png\" alt=\"game-image-2\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
-        </div>
-        <div class=\"flex items-center\">
-        <img src=\"${baseUrl}images/eod/EOD_Arcana.png\" alt=\"game-image-3\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
-        <img src=\"${baseUrl}images/eod/EOD_Gameplay2.png\" alt=\"game-image-4\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
+        `<span class="text-lg font-semibold">Edge of Divinity</span><span> is a follow on from </span><span class="text-lg font-semibold">Starlight Re:Volver</span><span> where we reworked the art and core game systems, removed the social city outgame portions, and made a focused Roguelite experience where your character climbs the tower floor by floor trying to get back to the celestial realm until you fall back down to basecamp.</span>
+        <div class="flex flex-wrap items-center">
+          <img src="${baseUrl}images/eod/EOD_Menu.png" alt="game-image" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
+          <img src="${baseUrl}images/eod/EOD_Preon.png" alt="game-image-2" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
+          <img src="${baseUrl}images/eod/EOD_Arcana.png" alt="game-image-3" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
+          <img src="${baseUrl}images/eod/EOD_Gameplay2.png" alt="game-image-4" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
         </div>`,
-      role: "Pahdo Labs shrunk dramatically after Starlight Re:Volver to focus on trying to release a 2nd game and possibly acquire enough funds to continue operating. I worked on almost every part of this game, from re-working our netcode to be P2P using Fishy Steamworks instead of server centric, to building a new outgame progression system and UIs for Score and Ranks, to fleshing out a new in game missions progress tracking system and UIs, to helping build a new experience for selecting you character loadout, to helping build and tune levels, to building game menus, to removing all of our backend service integrations, to tearing down our old AWS infrastructure, to tracking down bugs in state machines and timelines, and just about everything in between.",
+      role: `Pahdo Labs shrunk dramatically after Starlight Re:Volver to focus on trying to release a 2nd game and possibly acquire enough funds to continue operating.
+      <div class="mt-2" >I worked on almost every part of this game ...</div>
+          <ul class="list-disc list-outside ml-6 mt-2 space-y-2">
+            <li>Re-working our netcode to be P2P using Fishy Steamworks instead of server centric</li>
+            <li>Building a new outgame progression system and UIs for Score and Ranks</li>
+            <li>Fleshing out a new in game missions progress tracking system and UIs</li>
+            <li>Building a new experience for selecting your character loadout</li>
+            <li>Building game menus</li>
+            <li>Helping build and tune levels</li>
+            <li>Removing all of our backend service integrations</li>
+            <li>Tearing down our old AWS infrastructure</li>
+            <li>Tracking down bugs in state machines and timelines</li>
+            <li>And just about everything in between ...</li>
+          </ul>`,
       link_steam: "https://store.steampowered.com/app/4329030/Edge_of_Divinity/",
       abstract_title: "Edge of Divinity",
       abstract_image: `${baseUrl}images/eod/EOD_Title.jpg`,
@@ -49,46 +60,42 @@ export const games: Game[] = [
       title: "Starlight Re:Volver",
       image: `${baseUrl}images/srv/SRV_Banner1.png`,
       overview:
-        `<span class=\"text-lg font-semibold\">Starlight Re:Volver</span><span> is a Magical Girl Roguelite multiplayer game that blends a highly social outworld with a fast paced dungeon diving roguelite experience. Transform into one of 4 magical heroes, collect cosmetics and accessories, upgrade for future dives with trinkets, and experience fishing and crafting.</span>
-        <div class=\"flex items-center\">
-          <img src=\"${baseUrl}images/srv/SRV_Menu.png\" alt=\"game-image\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
-          <img src=\"${baseUrl}images/srv/SRV_Nim_Fishing.png\" alt=\"game-image-2\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
-          <img src=\"${baseUrl}images/srv/SRV_Nim_Shopping.png\" alt=\"game-image-3\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
-        </div>
-        <div class=\"flex items-center\">
-          <img src=\"${baseUrl}images/srv/SRV_Nim_Dive.png\" alt=\"game-image-4\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
-          <img src=\"${baseUrl}images/srv/SRV_Gameplay.jpg\" alt=\"game-image-4\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
-          <img src=\"${baseUrl}images/srv/SRV_SOMI_Portals.png\" alt=\"game-image-4\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
-        </div>
-        <div class=\"flex items-center\">
-          <img src=\"${baseUrl}images/srv/SRV_Sendoff.png\" alt=\"game-image-4\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
+        `<span class="text-lg font-semibold">Starlight Re:Volver</span><span> is a Magical Girl Roguelite multiplayer game that blends a highly social outworld with a fast paced dungeon diving roguelite experience. Transform into one of 4 magical heroes, collect cosmetics and accessories, upgrade for future dives with trinkets, and experience fishing and crafting.</span>
+        <div class="flex flex-wrap tems-center">
+          <img src="${baseUrl}images/srv/SRV_Menu.png" alt="game-image" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
+          <img src="${baseUrl}images/srv/SRV_Nim_Fishing.png" alt="game-image-2" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
+          <img src="${baseUrl}images/srv/SRV_Nim_Shopping.png" alt="game-image-3" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
+          <img src="${baseUrl}images/srv/SRV_Nim_Dive.png" alt="game-image-4" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
+          <img src="${baseUrl}images/srv/SRV_Gameplay.jpg" alt="game-image-5" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
+          <img src="${baseUrl}images/srv/SRV_SOMI_Portals.png" alt="game-image-6" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
+          <img src="${baseUrl}images/srv/SRV_Sendoff.png" alt="game-image-7" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
         </div>`,
-      role: `I joined this project 'late', about 5 months before early access release. My purpose was to help accelerate the release on the engineering side. I ended up contributing to this game on everything from PostgreSQL database tables matchmaking all the way up to Coherent Gameface UIs for gameplay and outgame systems.
-      <div class=\"font-lg font-semibold mt-4\">Backend APIs/DBs</div>
-        <div class=\"mt-4\">On the backend, I built out our APIs for Matchmaking and Accounts</div>
-        <div class=\"mt-4\">The matchmaking service was built using a timed batch processing system and supported building parties across multiple maps and difficulties from queued players using a combination of factors including; number of matches played, player rank, relative player build strength, maps selected, difficulties selected, time in queue, relative cpu performance of player, locale/language of player, RTT to server of player, and estimated geo-location of players. The system also supported friend preferences, combining pre-made partial parties together, and player blacklists.</div>
-        <div class=\"mt-4\">The accounts service was built to manage the association of the multiple services accounts we were using including Steam, Unity Gaming Services, and Playfab as well as providing support for linking Twitch accounts and providing friend referral codes.</div>
-      <div class=\"font-lg font-semibold mt-4\">Game Systems</div>
-        <div class=\"mt-4\">I added multiple systems and their associated UI elements to our game.</div>
-        <div class=\"mt-4\">Matchmaking integration to our backend APIs - Allowed selecting which Map(s) and Difficulties you wanted to queue for and managed the UI timers and queueing status updates for the player/party.</div>
-        <div class=\"mt-4\">Accounts integration to our backend APIs & 3rd party services - Managed user login via Steam and used Steam auth tokens to also auth the player to Unity Gaming Services and Playfab.</div>
-        <div class=\"mt-4\">Party Management, Friends, and Blacklists - Enabled players to manage their relationship with other players including inviting/kicking players from party, adding/removing friends - including Steam friends integration, blacklisting other players - including Steam ingtegration, and queueing for a match as a party.</div>
-        <div class=\"mt-4\">Referral Codes - Generated a unique referral code for each player that they could use to refer their friends and get rewards in game based on the number of players they had referred.</div>
-        <div class=\"mt-4\">Twitch Account Linking & Drops - Players could link their Twitch account and earn in game rewards based on their Twitch activity via Twitch Drops.</div>
-        <div class=\"mt-4\">Chat - Integrated Unity Vivox chat into the game supporting both party and server chat channels.</div>
-      <div class=\"font-lg font-semibold mt-4\">Netcode</div>
-        <div class=\"mt-4\">This game's netcode was built using Fishnet. I was responsible for 'fixing' the netcode. I profiled and re-designed the usage of reliable vs unreliable network channels for various portions of our game traffic. I reduced the size and frequency of various payload state updates, adjusted some of the reconciliation/prediction logic, and ultimately got the game into a good state where players across multiple timezones were able to play in a single match without notable lag or delay.</div>
-      <div class=\"font-lg font-semibold mt-4\">Performance/Scaling</div>
-        <div class=\"mt-4\">Similar to what I did for Netcode, one of my main responsibilities for this game was to 'fix' the performance.</div>
-        <div class=\"mt-4\">These efforts covered 3 main areas...
+      role: `I joined this project 'late', about 5 months before early access release. My purpose was to help accelerate the release on the engineering side. I ended up contributing to this game on everything from PostgreSQL database tables, to matchmaking apis, all the way up to Coherent Gameface UIs for gameplay and outgame systems.
+      <div class="font-lg font-semibold mt-4">Backend APIs/DBs</div>
+        <div class="mt-4">On the backend, I built out our APIs for Matchmaking and Accounts</div>
+        <div class="mt-4">The matchmaking service was built using a timed batch processing system and supported building parties across multiple maps and difficulties from queued players using a combination of factors including; number of matches played, player rank, relative player build strength, maps selected, difficulties selected, time in queue, relative cpu performance of player, locale/language of player, RTT to server of player, and estimated geo-location of players. The system also supported friend preferences, combining pre-made partial parties together, and player blacklists.</div>
+        <div class="mt-4">The accounts service was built to manage the association of the multiple services accounts we were using including Steam, Unity Gaming Services, and Playfab as well as providing support for linking Twitch accounts and providing friend referral codes.</div>
+      <div class="font-lg font-semibold mt-4">Game Systems</div>
+        <div class="mt-4">I added multiple systems and their associated UI elements to our game.</div>
+        <div class="mt-4">Matchmaking integration to our backend APIs - Allowed selecting which Map(s) and Difficulties you wanted to queue for and managed the UI timers and queueing status updates for the player/party.</div>
+        <div class="mt-4">Accounts integration to our backend APIs & 3rd party services - Managed user login via Steam and used Steam auth tokens to also auth the player to Unity Gaming Services and Playfab.</div>
+        <div class="mt-4">Party Management, Friends, and Blacklists - Enabled players to manage their relationship with other players including inviting/kicking players from party, adding/removing friends - including Steam friends integration, blacklisting other players - including Steam ingtegration, and queueing for a match as a party.</div>
+        <div class="mt-4">Referral Codes - Generated a unique referral code for each player that they could use to refer their friends and get rewards in game based on the number of players they had referred.</div>
+        <div class="mt-4">Twitch Account Linking & Drops - Players could link their Twitch account and earn in game rewards based on their Twitch activity via Twitch Drops.</div>
+        <div class="mt-4">Chat - Integrated Unity Vivox chat into the game supporting both party and server chat channels.</div>
+      <div class="font-lg font-semibold mt-4">Netcode</div>
+        <div class="mt-4">This game's netcode was built using Fishnet. I was responsible for 'fixing' the netcode. I profiled and re-designed the usage of reliable vs unreliable network channels for various portions of our game traffic. I reduced the size and frequency of various payload state updates, adjusted some of the reconciliation/prediction logic, and ultimately got the game into a good state where players across multiple timezones were able to play in a single match without notable lag or delay.</div>
+      <div class="font-lg font-semibold mt-4">Performance/Scaling</div>
+        <div class="mt-4">Similar to what I did for Netcode, one of my main responsibilities for this game was to 'fix' the performance.</div>
+        <div class="mt-4">These efforts covered 3 main areas ...
           <ul class="list-disc list-outside ml-6 mt-2 space-y-2">
             <li>Player FPS/Memory - I profiled and micro-optimized game code across nearly every system, from netcode updates, to timelines, to state machines, to effects processing, etc. This included allocation reductions and Unity specific code optimizations.</li>
             <li>Server FPS/Memory - Being a server hosted game, it was critical that both CPU usage and memory usage stayed as low as possible so that we could run as many instances as possible on a single AWS Gamelift server. A lot of the Client FPS/Memory work applied here as well, but I also implemented changes to how we loaded level data and other addressables so that we only kept the current dungeon room + the possible next rooms loaded at any time.</li>
             <li>UI Updates - We utilized Coherent Gameface with React for most of our in game UIs, including healthbars and other high update frequency combat information. I optimized the frequency of our Reactive value updates across all of our game elements and also refactored the React/Typescript side code to minimize the number of re-renders using a combination of memoization and code 'isDirty' comparison logic to limit the number of updates.</li>
           </ul>
         </div>
-      <div class=\"font-lg font-semibold mt-4\">Offline</div>
-        <div class=\"mt-4\">Sadly, when this project came to an end we had to make the hard decision to convert the game to offline so that players who had purchased could continue to play without servers online. I unhooked all external systems except for Steam, removed all of our own API integrations, and reworked the core game such that players could play it connecting to their own instance as the server while still preserving all of the original gameplay elements.</div>
+      <div class="font-lg font-semibold mt-4">Offline</div>
+        <div class="mt-4">Sadly, when this project came to an end we had to make the hard decision to convert the game to offline so that players who had purchased could continue to play without servers online. I unhooked all external systems except for Steam, removed all of our own API integrations, and reworked the core game such that players could play it connecting to their own instance as the server while still preserving all of the original gameplay elements.</div>
       `,
       link: "https://starlightrevolver.com/",
       link_steam: "https://store.steampowered.com/app/3201010/Starlight_Revolver/",
@@ -106,17 +113,13 @@ export const games: Game[] = [
       title: "Regression Games",
       image: `${baseUrl}images/rg/RG_Staff2.png`,
       overview:
-        `<span class=\"text-lg font-semibold\">Regression Games</span> was an AI Gaming startup that after a few experiments, landed on trying to solve testing in games using a combination of gameplay recordings, AI, and Computer Vision analysis. We released a product that allowed users to record segments of gameplay (states&inputs) and build those into sequences with validations similarly to how you might test a modern web application.
-        <div class=\"flex items-center\">
-        <img src=\"${baseUrl}images/rg/CV_analysis.png\" alt=\"game-image\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
-        <img src=\"${baseUrl}images/rg/demo.gif\" alt=\"game-image-2\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
-        </div>
-        <div class=\"flex items-center\">
-        <img src=\"${baseUrl}images/rg/GameplayrecordingSample.png\" alt=\"game-image-3\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
-        <img src=\"${baseUrl}images/rg/ViewingARecording.png\" alt=\"game-image-4\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
-        </div>
-        <div class="flex items-center">
-          <div className="group relative w-full max-w-70 mx-4 my-4">
+        `<span class="text-lg font-semibold">Regression Games</span> was an AI Gaming startup that after a few experiments, landed on trying to solve testing in games using a combination of gameplay recordings, AI, and Computer Vision analysis. We released a product that allowed users to record segments of gameplay (states&inputs) and build those into sequences with validations similarly to how you might test a modern web application.
+        <div class="flex flex-wrap tems-center">
+          <img src="${baseUrl}images/rg/CV_analysis.png" alt="game-image" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
+          <img src="${baseUrl}images/rg/demo.gif" alt="game-image-2" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
+          <img src="${baseUrl}images/rg/GameplayrecordingSample.png" alt="game-image-3" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
+          <img src="${baseUrl}images/rg/ViewingARecording.png" alt="game-image-4" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
+          <div className="group relative w-full max-w-60 mx-2 my-2">
             <video 
               src="${baseUrl}images/rg/BotSequenceBuilder.mp4" 
               autoPlay 
@@ -160,10 +163,10 @@ export const games: Game[] = [
       title: "Swizzle: Word Game",
       image: `${baseUrl}images/swizzle/SWIZZLE_FEATURE_GRAPHIC.png`,
       overview:
-        `<span class=\"text-lg font-semibold\">Swizzle: Word Game</span> was my first foray into mobile gaming. It was a mobile word finding game with daily challenges and a level progression system. Users swiped to build words from the grid of letters to complete the objectives of each level. It was released on Kindle, Android, and iOS.
-        <div class=\"flex items-center\">
-        <img src=\"${baseUrl}images/swizzle/Screenshot_RELAX_2_1920_1080.png\" alt=\"game-image\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[1.25] hover:z-50 hover:relative\"/>
-        <img src=\"${baseUrl}images/swizzle/IMG_0002.PNG\" alt=\"game-image-2\" class=\"w-full max-w-80 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[1.25] hover:z-50 hover:relative\"/>
+        `<span class="text-lg font-semibold">Swizzle: Word Game</span> was my first foray into mobile gaming. It was a mobile word finding game with daily challenges and a level progression system. Users swiped to build words from the grid of letters to complete the objectives of each level. It was released on Kindle, Android, and iOS.
+        <div class="flex flex-wrap items-center">
+          <img src="${baseUrl}images/swizzle/Screenshot_RELAX_2_1920_1080.png" alt="game-image" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[1.25] hover:z-50 hover:relative"/>
+          <img src="${baseUrl}images/swizzle/IMG_0002.PNG" alt="game-image-2" class="w-full max-w-80 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[1.25] hover:z-50 hover:relative"/>
         </div>`,
       role: "This was an independent venture, I built this game from scratch including the art/effects, gameplay and progression systems, Google Admob integrations, and mobile native social sharing hooks. This game also included a high score tracking system and online leaderboard built in NodeJS.",
       link_download: `${baseUrl}files/swizzle-game-build.zip`,
