@@ -166,7 +166,7 @@ export const games: Game[] = [
         `<span class="text-lg font-semibold">Swizzle: Word Game</span> was my first foray into mobile gaming. It was a mobile word finding game with daily challenges and a level progression system. Users swiped to build words from the grid of letters to complete the objectives of each level. It was released on Kindle, Android, and iOS.
         <div class="flex flex-wrap items-center">
           <img src="${baseUrl}images/swizzle/Screenshot_RELAX_2_1920_1080.png" alt="game-image" class="w-35 md:w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[1.25] hover:z-50 hover:relative"/>
-          <img src="${baseUrl}images/swizzle/IMG_0002.PNG" alt="game-image-2" class="w-full max-w-80 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[1.25] hover:z-50 hover:relative"/>
+          <img src="${baseUrl}images/swizzle/IMG_0002.PNG" alt="game-image-2" class="w-35 md:w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[1.25] hover:z-50 hover:relative"/>
         </div>`,
       role: "This was an independent venture, I built this game from scratch including the art/effects, gameplay and progression systems, Google Admob integrations, and mobile native social sharing hooks. This game also included a high score tracking system and online leaderboard built in NodeJS.",
       link_download: `${baseUrl}files/swizzle-game-build.zip`,
